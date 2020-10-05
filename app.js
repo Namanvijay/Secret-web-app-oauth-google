@@ -11,7 +11,7 @@ const findOrCreate=require('mongoose-findorcreate');
 require('dotenv').config();
 const passportLocal=require('passport-local-mongoose');
 const app=express();
-const shortid=require('shortid');
+
 
 
 
@@ -212,9 +212,9 @@ app.post('/login',
 
 
 
-app.listen('4000',function()
+app.listen('3000',function()
 {
-    console.log("Server is running on port 4000");
+    console.log("Server is running on port 3000");
 
 });
 
